@@ -1,0 +1,70 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    background-image: url('../img/rrt1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Arial", sans-serif;
+    background-color: gray;
+  }
+  
+  /* Container Styling */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Header Styling */
+  .judul {
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  
+  /* Input and Button Styling */
+  #angleInput {
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem auto;
+    display: block;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    margin-left: 42rem;
+  }
+  
+  /* Graph Container Styling */
+  #sinusGraph {
+    margin: 2rem auto;
+  }
+  
+  /* Instagram Icon Styling */
+  .icon {
+    font-size: 2rem;
+    color: #bc2a8d;
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+  }
+  
+  /* CTA Styling */
+  .cta {
+    position: absolute;
+    top: 1.2rem;
+    left: 0.5rem;
+  }
+  

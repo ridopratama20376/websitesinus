@@ -1,0 +1,93 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.pembungkus{
+    background-image: url('../img/background-website-keren-18.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    font-weight: bold;
+    position: sticky;
+    padding-top: 20px;
+}
+
+.judul{
+    display: flex;
+    color: orangered;
+}
+.link ul li{
+    display: inline;
+}
+
+.link li a{
+    padding: 7px;
+    display: inline-block;
+    text-decoration: none;
+    color: orangered;
+}
+
+.link li a:hover{
+    padding: 7px;
+    display: inline-block;
+    text-decoration: underline;
+    color: white;
+    transition: 0.7ms;
+}
+
+
+.about .judul{
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    background-color: black;
+}
+
+.about .judul p{
+    font-weight: 900;
+    margin-top: 80px;
+    color: white;
+}
+.ahay{
+    height: 100vh;
+    display: flex;
+    color: orangered;
+    background-color: transparent;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ahay .tulisan-biasa {
+    padding: 20px;
+    border-radius:1rem 3rem;
+}
+
+.ahay .content-biasa img{
+    border-radius: 1rem 3rem;
+    width: 200px;
+    height: 200px;
+}
+
+.ahay .lucu-lu h1 a{
+    border-radius: 5rem;
+    text-decoration: none;
+    color: orangered;
+}
+.ahay .lucu-lu h1 a:hover{
+    border-radius: 5rem;
+    text-decoration: none;
+    color: white;
+}
+
